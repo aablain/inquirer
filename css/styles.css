@@ -1,0 +1,114 @@
+body {
+  background: url(../img/bg.png) #e4e4e4;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+.container {
+  float: right;
+  width: 70%;
+}
+
+#inside {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+
+#dudes {
+  position: relative;
+}
+
+#nav li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  width: 33%;
+  padding: 15px 0 15px 0;
+}
+
+li hr {
+  width: 90%;
+}
+
+#nav {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(137, 1, 1);;
+}
+
+a:hover {
+  color: rgb(223, 48, 48);;
+}
+
+.villains h4 {
+  width: 100px;
+}
+
+.villains img {
+  display: inline;
+}
+
+ul {
+  text-align: center;
+}
+
+ol {
+  list-style: none;
+  text-align: center;
+}
+
+ol img {
+  max-width: 100%;
+}
+
+ol li {
+  width: 14%;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
+  /*margin: 1%;*/
+}
+
+ol li:first-child {
+  margin-left: none;
+}
+
+ol li:last-child {
+  margin-right: none;
+}
+
+span b {
+  /*width: 100%;*/
+  font-size: 1.2em;
+  display: block;
+}
+
+/*.smaller b {
+  display: block;
+  /*width: 100%;*/
+}*/
+
+.sherlock span:before {
+  content: "sherlock ";
+  display: block;
+}
+
+h3 {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -23px;
+  background-color: #e4e4e4;
+}
