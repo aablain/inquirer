@@ -6,6 +6,8 @@ body {
 p {
   text-align: left;
   padding-bottom: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .smaller {
@@ -15,12 +17,13 @@ p {
 .container {
   float: right;
   width: 70%;
+  text-align: center;
 }
 
 #inside {
   position: absolute;
-  top: 120px;
-  left: 65px;
+  margin-left: -215px;
+  margin-top: 115px;
 }
 
 #dudes {
@@ -37,6 +40,10 @@ p {
 
 li hr {
   width: 90%;
+}
+
+.villains hr {
+  width: 96%;
 }
 
 #nav {
@@ -62,11 +69,13 @@ a:hover {
 
 ul {
   text-align: center;
+  padding-left: 0;
 }
 
 ol {
   list-style: none;
   text-align: center;
+  padding-left: 0;
 }
 
 ol img {
@@ -95,15 +104,7 @@ span b {
   display: block;
 }
 
-/*.smaller b {
-  display: block;
-  /*width: 100%;*/
-}*/
 
-.sherlock span:before {
-  content: "sherlock ";
-  display: block;
-}
 
 h3 {
   width: 200px;
@@ -111,4 +112,14 @@ h3 {
   margin-left: auto;
   margin-top: -23px;
   background-color: #e4e4e4;
+}
+
+.footer {
+  text-align: center;
+}
+
+.ornament {
+  width: 50%;
+  height: 40px;
+  object-fit: cover;
 }
