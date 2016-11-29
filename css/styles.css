@@ -1,6 +1,15 @@
+@media screen and (max-width:3000px) {
+
+#top {
+  position: absolute;
+  width: 100%;
+}
+
 body {
-  background: url(../img/bg.png) #e4e4e4;
-  text-align: center;
+  background: url(../img/rag.png) repeat no-repeat, url(../img/bg.png);
+  /*background-image: url(../img/bg.png);*/
+  /*text-align: center;*/
+  margin-left: 0;
 }
 
 p {
@@ -18,16 +27,19 @@ p {
   float: right;
   width: 70%;
   text-align: center;
+  margin-top: -160px;
 }
 
 #inside {
   position: absolute;
   margin-left: -215px;
-  margin-top: 115px;
+  margin-top: 138px;
 }
 
 #dudes {
+  margin-top: 25px;
   position: relative;
+  /*float: left;*/
 }
 
 #nav li {
@@ -47,7 +59,9 @@ li hr {
 }
 
 #nav {
-  margin-bottom: 50px;
+  display: inline-block;
+  width: 100%;
+  float: right;
 }
 
 a {
@@ -68,8 +82,12 @@ a:hover {
 }
 
 ul {
+  margin-top: 80px;
   text-align: center;
   padding-left: 0;
+  float: right;
+  width: 70%;
+  display: inline-block;
 }
 
 ol {
@@ -104,14 +122,17 @@ span b {
   display: block;
 }
 
-
+/*#images {
+  width: 20%;
+  margin-right: 0;
+}*/
 
 h3 {
   width: 200px;
   margin-right: auto;
   margin-left: auto;
   margin-top: -23px;
-  background-color: #e4e4e4;
+  background: url(../img/bg.png);
 }
 
 .footer {
@@ -123,3 +144,79 @@ h3 {
   height: 40px;
   object-fit: cover;
 }
+
+
+
+
+}
+
+@media screen and (max-width:1300px) {
+  #nav li {
+    display: block;
+    width: 100%;
+  }
+
+  #nav {
+    width: 25%;
+    float: left;
+  }
+
+  #dudes {
+    float: left;
+    display: block;
+  }
+
+  #inside {
+    position: absolute;
+    margin-left: -215px;
+    margin-top: 138px;
+  }
+
+  .container {
+    width: 70%;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  ol li {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #dudes {
+    display: none;
+  }
+
+  #inside {
+    position: absolute;
+    /*margin-left: -215px;*/
+    margin-top: 138px;
+  }
+
+  #nav li {
+    display: inline-block;
+    width: 30%;
+  }
+
+  ul {
+    /*margin-top: 80px;*/
+    text-align: center;
+    padding-left: 0;
+    /*float: right;*/
+    width: 70%;
+    display: inline-block;
+  }
+
+  #nav {
+    width: 100%;
+  }
+
+    .container {
+      float: none;
+    }
+  }
+
+/*.padding {
+  padding-top:30px;
+}*/
